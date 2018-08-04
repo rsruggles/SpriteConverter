@@ -1,0 +1,82 @@
+<!-- Begin HTML Document -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Data -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Page Title -->
+    <title>Rian's Sprite Converter</title>
+    
+    <!-- HUSK CSS -->
+    <link rel="stylesheet" type="text/css" href="css/husk.css">
+    <!-- Styles.css -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+    <!-- jQuery in da House! -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
+
+  </head>
+  
+  <!-- Document Body -->
+  <body>
+    
+    <!-- Document Main -->
+    <main>
+          
+      <div class="row">
+        <div class="container">
+          <div id="main" class="col-12">
+            <h1 class="txt-center">Rian's Sprite Converter</h1>
+            <br /><br />
+            <div id="imgUpload" class="txt-center">
+              <label id="sclLabel">Size Scale Multiplier: <input id="sizeScale" type="text" value="1"></label>
+              <br /><br />
+              <label class="fileContainer">
+                Upload Sprite Sheet
+                <input type="file" id="input" multiple/>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="container">
+          <div class="col-12">
+            <br /><br />
+            <div id="previewWrapper">
+              <!--<canvas width="400" height="300" id="canvas"/> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="return" class="row" style="display: none;">
+        <div class="container">
+          <div class="col-12">
+            <a id="btn-back" href="index.html">Back</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- DOWNLOAD BUTTON
+      <div class="row">
+        <div class="container">
+          <div class="col-12">
+            <a id="dlCard">Download Card</a>
+          </div>
+        </div>
+      </div>
+      -->
+      
+    </main>
+
+    <script src="splice.js"></script>
+  </body>  
+</html>
