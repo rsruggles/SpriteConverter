@@ -10,6 +10,6 @@ So say you upload a sprite sheet which contains 8 different characters that look
 The app will splice the sheet into 8 separate downloadable files like so:
 ![Image of 8 Separate Sprite Sheet](https://raw.githubusercontent.com/rsruggles/SpriteConverter/master/images/spliced_sheets.png)
 
-##ToDo's
+## ToDo's
 - Add Download All Button to save time
 - Allow multiple files to be processed at a time.
